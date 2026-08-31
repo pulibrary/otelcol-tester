@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.18.0/.schema/devbox.schema.json",
+  "packages": [
+    "opentelemetry-collector-contrib@0.155.0",
+    "ruby@latest",
+    "libyaml.dev"
+  ],
+  "shell": {
+    "init_hook": [
+      "echo 'Welcome to devbox!' > /dev/null"
+    ],
+    "scripts": {
+      "start": [
+        "echo '' > results.json && ruby rewrite_config_for_testing.rb && otelcol-contrib --config config_for_testing.yaml"
+      ]
+    }
+  }
+}

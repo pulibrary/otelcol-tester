@@ -1,0 +1,112 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "github:NixOS/nixpkgs/nixpkgs-unstable": {
+      "last_modified": "2026-08-22T18:41:35Z",
+      "resolved": "github:NixOS/nixpkgs/174eb786fb68e3a13e4e535a3deea479a0c07a6a?lastModified=1787424095&narHash=sha256-dWLO5AHhKaw6rdWCtTes8hnntT1r0%2FJ5yhQGm0f0ZgU%3D"
+    },
+    "libyaml.dev": {
+      "resolved": "github:NixOS/nixpkgs/174eb786fb68e3a13e4e535a3deea479a0c07a6a?narHash=sha256-dWLO5AHhKaw6rdWCtTes8hnntT1r0%2FJ5yhQGm0f0ZgU%3D#libyaml.dev",
+      "source": "nixpkg"
+    },
+    "opentelemetry-collector-contrib@0.155.0": {
+      "last_modified": "2026-08-27T07:16:00Z",
+      "resolved": "github:NixOS/nixpkgs/c27cdad491a991b11ed731760aa2ef8db0cb0410#opentelemetry-collector-contrib",
+      "source": "devbox-search",
+      "version": "0.155.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/iahyivv6rgzm55zanw47fcs5v9jaz9nk-otelcol-contrib-0.155.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/iahyivv6rgzm55zanw47fcs5v9jaz9nk-otelcol-contrib-0.155.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/xjf6r63aym7q6mdfv6yw3bmg3q2wp1li-otelcol-contrib-0.155.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/xjf6r63aym7q6mdfv6yw3bmg3q2wp1li-otelcol-contrib-0.155.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/342lx1mqp876lh81g1z9drwa9zs6rkn4-otelcol-contrib-0.155.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/342lx1mqp876lh81g1z9drwa9zs6rkn4-otelcol-contrib-0.155.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/yaz0hmc7m399ihznbqdxvfpp9q8r18f1-otelcol-contrib-0.155.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/yaz0hmc7m399ihznbqdxvfpp9q8r18f1-otelcol-contrib-0.155.0"
+        }
+      }
+    },
+    "ruby@latest": {
+      "last_modified": "2026-08-27T07:16:00Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/c27cdad491a991b11ed731760aa2ef8db0cb0410#ruby_4_0",
+      "source": "devbox-search",
+      "version": "4.0.6",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/370qphasy9n41jnn3la4rgylyzbz3cr5-ruby-4.0.6",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/5x3ws9s5y2zzx81fi93msnwpvmlyplww-ruby-4.0.6-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/370qphasy9n41jnn3la4rgylyzbz3cr5-ruby-4.0.6"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8wlgz23r62pw60i9q8qgg0vkldm9ly5q-ruby-4.0.6",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/2z0nj6qxyy7yyif8xadhlhfi5gmn9nnl-ruby-4.0.6-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/8wlgz23r62pw60i9q8qgg0vkldm9ly5q-ruby-4.0.6"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/zlanyzsy078fmgh7qv992l8qgw419x9c-ruby-4.0.6",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/zv4cdlpsnia01zg1swf8yzj7vlg0jivh-ruby-4.0.6-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/zlanyzsy078fmgh7qv992l8qgw419x9c-ruby-4.0.6"
+        }
+      }
+    }
+  }
+}

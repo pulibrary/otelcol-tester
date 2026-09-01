@@ -13,6 +13,7 @@ To test whether a line will be logged by an otelcol filter:
 1. `devbox run start`
 
 In another terminal:
+1. `mkdir -p solr/logs`
 1. Copy over a few logs into place relative to this directory:
     ```
     ssh deploy@lib-solr-prod3.princeton.edu 'tail -20 /solr/logs/solr_slow_requests.log' > ./solr/logs/solr_slow_requests.log

@@ -13,7 +13,8 @@ To test whether a line will be logged by an otelcol filter:
 1. `devbox run start`
 
 In another terminal:
-1. Copy over a few logs into place relative to this directory:
+1. create a relative / local directory with the same path as the directory for the logfiles you want to test the parsing of, e.g. `mkdir -p solr/logs` or `mkdir -p var/log/nginx/`
+1. Copy over a few logs into the directory you made:
     ```
     ssh deploy@lib-solr-prod3.princeton.edu 'tail -20 /solr/logs/solr_slow_requests.log' > ./solr/logs/solr_slow_requests.log
     ```

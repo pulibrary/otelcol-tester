@@ -1,4 +1,5 @@
 config.yaml
 config_for_testing.yaml
+opt
 results.json
 solr

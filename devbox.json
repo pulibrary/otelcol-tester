@@ -3,7 +3,8 @@
   "packages": [
     "opentelemetry-collector-contrib@0.155.0",
     "ruby@latest",
-    "libyaml.dev"
+    "libyaml.dev",
+    "git@latest"
   ],
   "shell": {
     "init_hook": [

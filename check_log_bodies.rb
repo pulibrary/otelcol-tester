@@ -12,4 +12,8 @@ log_entries = lines
 
 puts "Found #{log_entries.count} entries"
 puts "They are:"
-log_entries.each { puts "[#{it['severityText']} #{it['severityNumber']}]: #{it['body']['stringValue'][..100]}" }
+log_entries.each do
+  puts
+  puts "[#{it['severityText']} #{it['severityNumber']}]: #{it['body']['stringValue'][..100]}"
+  puts it['attributes']
+end
